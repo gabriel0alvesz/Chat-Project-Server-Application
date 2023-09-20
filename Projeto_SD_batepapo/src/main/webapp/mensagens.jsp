@@ -30,13 +30,6 @@
         }catch (Exception e){
             out.print("Erro: " + e.getMessage());
         }
-
-                // true igual ao modo de adição
-//        String msg = "<img src=\" " + session.getAttribute("radavatar") + "\" widht=\"30\" height=\"30\" +><font color=\""+session.getAttribute("radcor")+"\">" + session.getAttribute("txtnick") + "</font> diz: " + request.getParameter("txtMsg") + "<br>";
-//
-//        FileWriter writer = new FileWriter("/Users/gabrielalves/IdeaProjects/Projeto_SD_batepapo/src/main/webapp/chat.txt",true);
-//        writer.write(msg);
-//        writer.close();
     }
 
 %>
